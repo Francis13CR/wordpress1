@@ -1,0 +1,10 @@
+/* 
+Theme Name: Hestia Child
+Template: hestia
+Author: Francis
+Requires PHP: 5.4.0
+Description: Child Theme for Hestia
+ */
+
+ @import url(../hestia/style.css);
+ @import url(./assets/css/style.css);

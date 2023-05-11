@@ -1,0 +1,55 @@
+:root{
+    --white: #ffffff;
+    --black: #000000;
+}
+
+.page-header .container .hestia-title{
+    font-size: 10rem;
+}
+
+.hestia-blogs{
+    background-color: rgb(127, 161, 235);
+}
+
+.card-description{
+    color: var(--white);
+    font-size: 1.6rem;
+}
+
+.nav-hestia-child{
+    display: none;
+}
+.nav-hestia-child ul {
+    list-style: none;
+    font-size: 2.6rem;
+    padding: 0;
+}
+.nav-hestia-child hr{
+    border-top:  2px solid #9e9e9e;
+}
+.model-object-3d{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+}
+
+
+@media screen and (min-width:600px) {
+    .nav-hestia-child{
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 20rem;
+        background: var(--white);
+        z-index: 4;
+        box-shadow: 0 0 10px var(--black);
+        padding: 4rem 1rem;
+    }
+
+    .main, .big-title-slider-content{
+        margin-left: 24rem;
+    }
+    
+}
